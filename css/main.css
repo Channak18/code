@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: bisque;
+}
+
+.container .nvbar ul {
+    display: flex;
+    gap: 40PX;
+    list-style: none;
+    background-color: teal;
+    padding: 25px;
+}
+.container .nvbar ul li a:hover {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+.container .welcome {
+    padding: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+.container .home h3 {
+    background-color: white;
+    padding: 80px;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.container .home {
+    display: flex;
+    justify-content: space-around;
+}
+/* about-page */
+
+.about-box{
+    display: flex;
+}
+.about-box .box1 h3 {
+    padding: 60px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    width: 600px;
+    gap: 100px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box1 {
+    text-align: center;
+}
+.title {
+    margin-left: 30px;
+    width: 700px;
+}
+.box h3 {
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* service page */
+.service-table {
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+table {
+margin-left: 20%;
+}
+table, th, td {
+    margin: auto;
+    border: 1px solid;
+    width: 600px;
+    height: 40px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td:nth-child(1), th:nth-child(1) {
+    background-color: rgb(223, 195, 242);
+}
+td:nth-child(2), th:nth-child(2) {
+    background-color: rgb(244, 244, 169);
+}
+td:nth-child(3), th:nth-child(3) {
+    background-color: rgb(240, 184, 184);
+}
+td:nth-child(4), th:nth-child(4) {
+    background-color: rgb(214, 236, 154);
+}

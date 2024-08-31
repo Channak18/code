@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: bisque;
+}
+
+.container .nvbar ul {
+    display: flex;
+    gap: 40PX;
+    list-style: none;
+    background-color: teal;
+}
+.container .nvbar ul li a:hover {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin: 100%;
+}
+.about-box .box h3 {
+    padding: 60px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    width: 600px;
+}
+.about-box
